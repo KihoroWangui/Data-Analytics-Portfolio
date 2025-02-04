@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+nav {
+  position: top;
+  background-color: #333;
+  overflow: hidden;
+  border-bottom: 2px solid #555;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #575757;
+}
+.content {
+  padding: 20px;
+}
+.plot {
+  margin: 20px 0;
+}
+.plot img {
+  max-width: 100%;
+  height: auto;
+}
