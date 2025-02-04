@@ -15,6 +15,11 @@ h1 {
 h2 {
   color: #fdfcfc;
 }
+h4 {
+  color: blue;
+  font-size: 1.5rem;
+}
+
 p {
   color: rgb(255, 255, 255);
   font-size: 20px;
